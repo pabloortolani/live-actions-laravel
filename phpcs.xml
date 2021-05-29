@@ -20,7 +20,6 @@
     <file>app</file>
     <file>bootstrap</file>
     <file>config</file>
-    <file>database</file>
     <file>resources</file>
     <file>routes</file>
     <file>tests</file>
@@ -30,6 +29,7 @@
        custom standard so you don't have to specify the
        patterns on the command line.
     -->
+    <exclude-pattern>*/database/*</exclude-pattern>
     <exclude-pattern>*/cache/*</exclude-pattern>
     <exclude-pattern>*/*.js</exclude-pattern>
     <exclude-pattern>*/*.css</exclude-pattern>
