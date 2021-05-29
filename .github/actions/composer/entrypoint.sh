@@ -1,2 +1,2 @@
 #!/bin/sh
-run composer update
+composer update
